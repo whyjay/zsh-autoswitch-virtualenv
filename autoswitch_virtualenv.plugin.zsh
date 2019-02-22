@@ -1,10 +1,11 @@
-export AUTOSWITCH_VERSION='1.9.0'
+export AUTOSWITCH_VERSION='0.1'
 
 RED="\e[31m"
 GREEN="\e[32m"
 PURPLE="\e[35m"
 BOLD="\e[1m"
 NORMAL="\e[0m"
+AUTOSWITCH_DEFAULT_PYTHON=3
 
 
 if ! type "virtualenv" > /dev/null; then
